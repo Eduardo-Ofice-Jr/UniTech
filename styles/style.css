@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.icon_logo {
+  position: relative;
+  right: 6px;
+  bottom: 3px;
+  display: flex;
+  width: 38px;
+  height: auto;
+
+}
+
+
+.boxnav {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 30px;
+}
+
+
+nav {
+  max-width: 1366px;
+  width: 100%;
+  height: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logo {
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: bold;
+  color: black;
+}
+
+
+.button_iniciar {
+  font-family: "Nunito", sans-serif;
+  padding: 5px;
+  font-size: 13px;
+  width: 160px;
+  border-radius: 20px;
+  background-color: #3874ec;
+  background-image: linear-gradient(-30deg, #3874ec 30%, #60c5ff80);
+  border: 1px solid #60c5ff30;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+main {
+  font-family: "Nunito", sans-serif;
+  margin-inline: auto;
+}
+
+.mae{
+  
+  max-width: 1000px;
+  width: 100%;
+  gap: 4%;
+  margin-inline: auto;
+
+}
+
+.filha{
+  display: flex;
+
+}
+
+
+.esquerda{
+  width: 49%;
+  
+}
+
+.title_intro{
+  margin-top: 11em;
+}
+
+
+.paragrafo_intro{
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgb(108, 107, 107);
+  text-align: justify;
+}
+
+.direita{
+  text-align: end;
+  width: 49%;
+
+}
+
+
+.photo_analist{
+  margin-top: 11em;
+  width: 65%;
+}
+
+footer{
+  display: none;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin-top: 40px;
+  color: rgb(108, 107, 107);
+  text-align: center;
+}
+
+
+.photo_question{
+  text-align: left;
+  width: 65%;
+
+}
+
+.direita2{
+  text-align: left;
+  width: 49%;
+  margin-top: 24em;
+
+}
+
+
+.faqs_title{
+  margin-top: 11em;
+}
+
+
+h3{
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.paragrafo_faqs{
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(108, 107, 107);
+  
+
+}
+
+.logo_marca{
+  display: flex;
+  margin-top: 44px;
+  margin-bottom: 120px;
+  justify-content: center;
+}
