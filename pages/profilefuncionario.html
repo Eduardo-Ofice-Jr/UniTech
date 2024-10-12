@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Funcionário</title>
-    <link rel="stylesheet" href="profilefuncionario.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/notie/dist/notie.min.css" />
+    <link rel="stylesheet" href="../styles/profilefuncionario.css">
 </head>
 
 <body>
@@ -19,13 +20,13 @@
             </p>
             <div class="lineone">
                 <div>
-                    <label for="text">Nome docente</label>
-                    <input type="text">
+                    <label for="text">Nome</label>
+                    <input type="text" placeholder="Insira o nome" id="input_nomefuncionario">
                 </div>
 
                 <div>
                     <label for="text">Sobrenome</label>
-                    <input type="text">
+                    <input type="text" placeholder="Insira o seu sobrenome" id="input_sobrenome">
                 </div>
             </div>
 
@@ -33,7 +34,7 @@
             <div class="lineone">
                 <div>
                     <label for="">Sexo</label>
-                    <select name="sexo" id="sexo">
+                    <select name="sexo" id="input_sexo">
                         <option value="notification" disabled selected>Selecionar sexo</option>
                         <option value="masculino">Masculino</option>
                         <option value="feminino">Feminino</option>
@@ -42,19 +43,19 @@
 
                 <div>
                     <label for="date">Data de Nascimento</label>
-                    <input type="date">
+                    <input type="date" id="input_nascimento">
                 </div>
             </div>
 
             <div class="lineone">
                 <div>
                     <label for="contact">Contacto</label>
-                    <input type="text">
+                    <input type="text" placeholder="Digite o seu contacto" id="input_contacto">
                 </div>
 
                 <div>
                     <label for="morada">Endereço</label>
-                    <input type="text">
+                    <input type="text"  placeholder="Insira a sua morada" id="input_morada">
                 </div>
 
             </div>
@@ -63,21 +64,22 @@
             <div class="lineone">
                 <div>
                     <label for="date">Definir usuário</label>
-                    <input type="text">
+                    <input type="text" placeholder="Preencha o campo com nr de BI" id="input_user">
                 </div>
 
                 <div>
                     <label for="password">Senha</label>
-                    <input type="password">
+                    <input type="password" placeholder="Crie uma senha" id="input_senha">
                 </div>
 
             </div>
-            <button>Submeter</button>
+            <button id="button_submeter">Submeter</button>
 
         </form>
     </div>
 
-
+    <script src="https://unpkg.com/notie"></script>
+    <script src="../script/profilefuncionario.js"></script>
 </body>
 
 </html>

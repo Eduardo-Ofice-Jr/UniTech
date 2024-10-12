@@ -78,6 +78,11 @@ input:focus{
     border-color: #60c5ff;
 }
 
+::placeholder{
+    font-size: 12px;
+    color: black;
+}
+
 
 select{
     width: 230px;
@@ -86,6 +91,12 @@ select{
     border-radius: 6px;
     border: 1px solid gray;
     font-size: 12px;
+}
+
+
+select:focus{
+    outline: none;
+    border-color: #60c5ff;
 }
 
 button{

@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Student</title>
-    <link rel="stylesheet" href="../pages/profilestudent.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/notie/dist/notie.min.css" />
+    <link rel="stylesheet" href="../styles/profilestudent.css">
+    
 </head>
 
 <body>
@@ -17,18 +19,18 @@
             </p>
             <div class="lineone">
                 <div>
-                    <label for="text">Nome do estudante</label>
-                    <input type="text">
+                    <label for="text">Nome</label>
+                    <input type="text" placeholder="Insira o nome do estudante" id="input_nomeestudante">
                 </div>
 
                 <div>
                     <label for="text">Sobrenome</label>
-                    <input type="text">
+                    <input type="text" placeholder="Insira seu sobrenome" id="input_sobrenome">
                 </div>
 
                 <div>
                     <label for="">Sexo</label>
-                    <select name="sexo" id="sexo">
+                    <select name="sexo" id="input_sexo">
                         <option value="notification" disabled selected>Selecionar sexo</option>
                         <option value="masculino">Masculino</option>
                         <option value="feminino">Feminino</option>
@@ -40,29 +42,29 @@
             <div class="lineone">
                 <div>
                     <label for="date">Data de Nascimento</label>
-                    <input type="date">
+                    <input type="date" id="input_nascimento">
                 </div>
 
                 <div>
                     <label for="morada">Endereço</label>
-                    <input type="text">
+                    <input type="text" placeholder="Insira sua morada" id="input_morada">
                 </div>
 
                 <div>
                     <label for="contact">Contacto</label>
-                    <input type="text">
+                    <input type="text" placeholder="Insira seu contacto" id="input_contacto">
                 </div>
             </div>
 
             <div class="lineone">
                 <div>
                     <label for="number">Número BI</label>
-                    <input type="text">
+                    <input type="text" placeholder="Insira o seu nr BI" id="input_number_bi">
                 </div>
 
                 <div>
                     <label for="text">Curso</label>
-                    <select name="curso" id="curso">
+                    <select name="curso" id="input_curso">
                         <option value="notification" disabled selected>Selecionar curso</option>
                         <option value="curso1">Licenciatura em Engenharia Ambiental e Gestão de Desastres</option>
                         <option value="curso2">Licenciatura em Engenharia e Gestão Industrial</option>
@@ -84,7 +86,7 @@
 
                 <div>
                     <label for="date">Data Inscrição</label>
-                    <input type="date">
+                    <input type="date" id="input_data_inscricao">
 
                 </div>
             </div>
@@ -93,25 +95,26 @@
             <div class="lineone">
                 <div>
                     <label for="date">Nome Usuário</label>
-                    <input type="text">
+                    <input type="text" placeholder="Preencha o campo com nr de BI" class="input_user">
                 </div>
 
                 <div>
                     <label for="password">Senha</label>
-                    <input type="password">
+                    <input type="password" placeholder="Crie uma senha" id="input_senha">
                 </div>
 
                 <div>
                     <label for="password">Repetir Senha</label>
-                    <input type="password">
+                    <input type="password" placeholder="Confirme a senha" id="input_senha_repetida">
                 </div>
             </div>
 
-            <button>Submeter</button>
+            <button id="button_submeter">Submeter</button>
 
         </form>
     </div>
 
+    <script src="https://unpkg.com/notie"></script>
+    <script src="../script/profilestudent.js"></script>
 </body>
-
 </html>

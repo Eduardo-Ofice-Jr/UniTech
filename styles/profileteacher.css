@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -76,6 +78,11 @@ input:focus{
     border-color: #60c5ff;
 }
 
+::placeholder{
+    font-size: 12px;
+    color: black;
+}
+
 
 select{
     width: 300px;
@@ -84,6 +91,12 @@ select{
     border-radius: 6px;
     border: 1px solid gray;
     font-size: 12px;
+}
+
+
+select:focus{
+    outline: none;
+    border-color: #60c5ff;
 }
 
 button{
